@@ -7,4 +7,4 @@ section_path = "blog/_index.md"
 max_posts = 5
 +++
 
-Welcome to my personal site!
+I write [blog](./blog) and work on [projects](./projects) to improve the world, one step at a time. You can also discover what I do, use, read and think [now](./now).

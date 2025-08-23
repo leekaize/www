@@ -1,5 +1,5 @@
 +++
-title = "supOS Hackathon Project"
+title = "supOS Hackathon 2025"
 description = "A work-in-progress demo project showcasing supOS's features."
 weight = 1
 template = "page.html"
