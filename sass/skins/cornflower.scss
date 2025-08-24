@@ -27,3 +27,13 @@
         @include theme-variables('dark');
     }
 }
+
+.nav-navs .active {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-navs {
+        margin-bottom: 0.8rem;
+    }
+}
