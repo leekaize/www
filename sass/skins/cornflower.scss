@@ -37,3 +37,11 @@
         margin-bottom: 0.8rem;
     }
 }
+
+p > a {
+    text-decoration: underline;
+}
+
+#home-banner-header {
+    color: var(--text-color);
+}

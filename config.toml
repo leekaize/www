@@ -49,7 +49,7 @@ smart_punctuation = true
 
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
-override_serif_with_sans = false
+override_serif_with_sans = true
 
 # Enable JavaScript theme toggler to allow users to switch between dark/light mode.
 # If disabled, your site will use the theme specified in the `default_theme` variable.
@@ -299,7 +299,7 @@ socials = [
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
 # copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
-copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = "$TITLE © $CURRENT_YEAR $SEPARATOR Contents licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.

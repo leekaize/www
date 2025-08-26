@@ -1,6 +1,6 @@
 +++
 title = "supOS Hackathon 2025"
-description = "A work-in-progress demo project showcasing supOS's features."
+description = "Work-In-Progress"
 weight = 1
 template = "page.html"
 
@@ -8,9 +8,9 @@ template = "page.html"
 tags = ["career", "impact"]
 
 [extra]
-local_image = "img/profile.webp"
+local_image = "projects/supos-hackathon-2025/supos.webp"
 +++
 
-## Why supOS?
+## Why switch?
 
 TK
