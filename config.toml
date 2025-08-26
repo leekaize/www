@@ -236,11 +236,11 @@ enable_cards_tag_filtering = true
 invert_title_order = true
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.ico"
-# favicon = ""
+favicon = "favicon.ico"
 
 # Add an emoji here to use it as favicon.
 # Compatibility: https://caniuse.com/link-icon-svg
-favicon_emoji = "💻"
+# favicon_emoji = "💻"
 
 # Path to the fallback image for social media cards (the preview image shown when sharing a link on WhatsApp, LinkedIn…).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -299,7 +299,7 @@ socials = [
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
 # copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
-copyright = "$TITLE © $CURRENT_YEAR $SEPARATOR Contents licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = "[$TITLE](https://leekaize.com) © $CURRENT_YEAR $SEPARATOR Contents licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.

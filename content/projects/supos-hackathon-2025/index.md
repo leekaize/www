@@ -11,6 +11,6 @@ tags = ["career", "impact"]
 local_image = "projects/supos-hackathon-2025/supos.webp"
 +++
 
-## Why switch?
+## Why?
 
 TK

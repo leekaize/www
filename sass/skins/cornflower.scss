@@ -38,10 +38,14 @@
     }
 }
 
-p > a {
+.content a:not(.card, .no-hover-padding) {
     text-decoration: underline;
 }
 
 #home-banner-header {
     color: var(--text-color);
+}
+
+h2 {
+    margin-bottom: .8rem;
 }
