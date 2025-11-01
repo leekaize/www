@@ -5,7 +5,9 @@ template = "now.html"
 
 ## Doing
 
-> 🚧 Website Migration
+> 🧰 [Incremental learning framework for edge devices with human-in-the-loop adaptation](https://github.com/leekaize/tinyol-hitl)
+
+> ✅️ [supOS-bedrock: Industrial IoT Orchestrator](https://leekaize.com/projects/supos-bedrock/) {Finished: 2025-10-31}
 
 # Reading
 
@@ -17,19 +19,14 @@ template = "now.html"
 
 # Using
 
+Tech:
+<br>⌨️ Ubuntu
+
 Softwares:
-<br>📧 Tuta Mail • 🌐 Firefox & DuckDuckGo • 🧑‍💻 VSCodium • 📚 Readest • 📝 Joplin
+<br>🌐 Brave Browser • 🧑‍💻 VSCodium • 📧 Tuta Mail • 📚 Readest
 
 Self-Hosted:
-<br>💾 Nextcloud [Contact, Calendar, Deck, News] • 🔔 RSSHub • 🔗 WireGuard & RustDesk
-
-# Thinking
-
-> 💡 Effective Altruism: [Peter Singer](https://www.youtube.com/watch?v=Diuv3XZQXyc).
-
-> 💡 Science & Spirituality: [John Lennox](https://www.youtube.com/watch?v=otrqzITuSqE).
-
-> 💡 Agape: [Bishop Robert Barron](https://www.youtube.com/watch?v=mb5Um3h0pEc).
+<br>💾 Nextcloud [Contact, Calendar, Notes, News] • 🔗 WireGuard & RustDesk
 
 ---
 
