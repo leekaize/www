@@ -7,4 +7,6 @@ section_path = "blog/_index.md"
 max_posts = 5
 +++
 
-I write [blog](./blog) and work on [projects](./projects) to improve the world, one step at a time. You can also discover what I am doing, using, reading and thinking [now](./now).
+I write [blog](./blog) and work on [projects](./projects) to make the world a better place. You can also discover what I am doing, using and reading [now](./now).
+
+I also write down details [about](./about) me, on my background and my callings.

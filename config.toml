@@ -249,7 +249,8 @@ favicon = "/favicon.ico"
 # social_media_card = ""
 
 menu = [
-    { name = "now", url = "now", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = false },
+    { name = "now", url = "now", trailing_slash = false },
     { name = "blog", url = "blog", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
 ]

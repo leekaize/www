@@ -1,33 +1,34 @@
 +++
 title = "Now"
-template = "now.html"
 +++
+
+Last Updated: 2025-11-04
+
+## Main Focus:
+
+Ship production-ready, minimum viable open standard that allows human-in-the-loop incremental learning on microcontrollers connected to sensors, by 2025-11-28.
 
 ## Doing
 
-> 🧰 [Incremental learning framework for edge devices with human-in-the-loop adaptation](https://github.com/leekaize/tinyol-hitl)
+* [5%] [Incremental learning framework for edge devices with human-in-the-loop adaptation](https://github.com/leekaize/tinyol-hitl)
+* [100%] [supOS-bedrock: Industrial IoT Orchestrator](https://leekaize.com/projects/supos-bedrock/) {Finished: 2025-10-31}
 
-> ✅️ [supOS-bedrock: Industrial IoT Orchestrator](https://leekaize.com/projects/supos-bedrock/) {Finished: 2025-10-31}
+## Reading
 
-# Reading
+* [29%] "Tall Order: The Goh Chok Tong Story Volume 1" by Peh Shing Huei
 
-> 🚧 "Own Your Past, Change Your Future" by Dr. John Delony
+### My favourite blogs:
 
-> 🚧 "Atomic Habits" by James Clear
+- [Seth Godin](https://seths.blog/): Concise daily blogs to spark your ideas, cover wide areas from marketing to creative work to education.
+- [Wiwi Kuan](https://wiwi.blog/): Started as pianist teaching you things you wouldn't learn in music school. To a libre-ware lover teaching you things big tech doesn't want you to know.
+- [Jeff Geerling](https://www.jeffgeerling.com/): Bridging fun and practicality of engineering.
 
-> ✅️ "The Complete Musashi: The Book of Five Rings and Other Works" translated by Alexander Bennett. Notes under [Blog Post: The Way towards Mastery](https://leekaize.com/blog/the-way-towards-mastery/).
+## Using
 
-# Using
-
-Tech:
-<br>⌨️ Ubuntu
-
-Softwares:
-<br>🌐 Brave Browser • 🧑‍💻 VSCodium • 📧 Tuta Mail • 📚 Readest
-
-Self-Hosted:
-<br>💾 Nextcloud [Contact, Calendar, Notes, News] • 🔗 WireGuard & RustDesk
-
----
-
-> Insanity is doing the same thing over and over again and expecting different results. — Al-Anon Family Groups
+* 💾 Nextcloud [Contact, Calendar, Notes, News]
+* ⌨️ Ubuntu
+* ☁️ Hetzner Servers
+* 🌐 Brave Browser
+* 🧑‍💻 VSCodium
+* 📧 Tuta Mail
+* 📚 Readest
