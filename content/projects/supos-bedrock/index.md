@@ -25,8 +25,6 @@ One day I stopped. Asked the obvious question.
 
 This leads to participation in supOS Global Hackathon 2025. Take a part in building the tool to shape the future of industrial processes.
 
-<!-- more -->
-
 {{ youtube(id="msySeDPDzdE") }}
 *Full walkthrough: setup wizard, app installation, version updates, backup/restore*
 
