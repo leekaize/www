@@ -1,8 +1,13 @@
 +++
 title = "Now"
-+++
+template = "now.html"
 
-Last Updated: 2025-11-04
+[extra]
+micro_path = "micro/_index.md"
+max_micro = 3
+micro_section_name = "Latest Thoughts"
+show_micro = true
++++
 
 ## Main Focus:
 
