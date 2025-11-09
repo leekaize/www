@@ -1,0 +1,31 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Build with Zola
+        uses: shalzz/zola-deploy-action@v0.19.2
+        env:
+          BUILD_ONLY: true
+          BUILD_FLAGS: --base-url ${{ secrets.CLOUDFLARE_PAGES_URL }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: leekaize-com
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
