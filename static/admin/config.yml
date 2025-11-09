@@ -1,0 +1,96 @@
+backend:
+  name: github
+  repo: leekaize/www
+  branch: main
+  base_url: https://sveltia-cms-auth.leekaize.workers.dev
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  # Blog posts
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    preview_path: "blog/{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Micro posts
+  - name: "micro"
+    label: "Micro Posts"
+    folder: "content/micro"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}{{minute}}"
+    preview_path: "micro"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        default: "{{year}}-{{month}}-{{day}} {{hour}}:{{minute}}"
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Single pages
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Now"
+        name: "now"
+        file: "content/now/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Template", name: "template", widget: "hidden", default: "now.html"}
+          - label: "Extra"
+            name: "extra"
+            widget: "object"
+            fields:
+              - {label: "Micro Path", name: "micro_path", widget: "hidden", default: "micro/_index.md"}
+              - {label: "Max Micro", name: "max_micro", widget: "number", default: 3}
+              - {label: "Micro Section Name", name: "micro_section_name", widget: "string", default: "Latest Thoughts"}
+              - {label: "Show Micro", name: "show_micro", widget: "boolean", default: true}
+          - {label: "Body", name: "body", widget: "markdown"}
+      
+      - label: "About"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  # Projects
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    preview_path: "projects"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Weight", name: "weight", widget: "number", default: 1}
+      - {label: "Template", name: "template", widget: "hidden", default: "page.html"}
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - {label: "Tags", name: "tags", widget: "list", required: false}
+      - label: "Extra"
+        name: "extra"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Local Image", name: "local_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
