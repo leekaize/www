@@ -1,16 +1,16 @@
-+++
-title = "supOS Bedrock"
-description = "Industrial IoT Orchestrator"
-weight = 1
-template = "page.html"
-
-[taxonomies]
-tags = ["career", "impact"]
-
-[extra]
-local_image = "projects/supos-bedrock/supos-bedrock.webp"
-+++
-
+---
+title: supOS Bedrock
+description: Industrial IoT Orchestrator
+weight: 1
+template: page.html
+taxonomies:
+  tags:
+    - docker
+    - python
+    - react
+extra:
+  local_image: projects/supos-bedrock/supos-bedrock.webp
+---
 ## The Moment
 
 Working as a system integrator, I spent most days fighting outdated tools.
@@ -26,7 +26,7 @@ One day I stopped. Asked the obvious question.
 This leads to participation in supOS Global Hackathon 2025. Take a part in building the tool to shape the future of industrial processes.
 
 {{ youtube(id="msySeDPDzdE") }}
-*Full walkthrough: setup wizard, app installation, version updates, backup/restore*
+_Full walkthrough: setup wizard, app installation, version updates, backup/restore_
 
 ## The Problem
 
@@ -39,7 +39,8 @@ Not because the tools are bad. Because deployment is fragmented.
 Too many services to install separately. Too many configs to maintain. Too much friction.
 
 ![Unified Namespace Architecture](./supos-ecosystem.webp)
-*The vision: supOS as platform foundation for industrial tools*
+
+_The vision: supOS as platform foundation for industrial tools_
 
 ## The Insight
 
@@ -73,6 +74,7 @@ docker run -d \
 ```
 
 Web wizard handles the rest:
+
 - System checks (volumes, ports, IPs)
 - Admin account creation
 - Optional app selection
@@ -80,16 +82,19 @@ Web wizard handles the rest:
 - Deploys 15+ services automatically
 
 ![Setup Wizard](./supos-setup.webp)
-*Four-step wizard. Zero terminal commands.*
+
+_Four-step wizard. Zero terminal commands._
 
 Post-installation, orchestrator becomes control plane:
+
 - Version management via GitHub manifest
 - One-click updates
 - Install/uninstall apps
 - Automated backups with Borg
 
 ![Container Management](./supos-orchestrator.webp)
-*Container management showing version updates*
+
+_Container management showing version updates_
 
 ## How It Works
 
@@ -138,4 +143,4 @@ Not production-ready. But functional enough to prove the path.
 
 ---
 
-*Built for supOS Platform Hackathon, October 2025. My first open-source project—solving fragmentation in Industrial IoT.*
+_Built for supOS Platform Hackathon, October 2025. My first open-source project—solving fragmentation in Industrial IoT._
