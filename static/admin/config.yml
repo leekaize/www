@@ -73,7 +73,7 @@ collections:
     label: "Projects"
     folder: "content/projects"
     create: true
-    slug: "{{slug}}/index"
+    slug: "{{slug}}"
     path: "{{slug}}/index"
     preview_path: "projects"
     fields:
