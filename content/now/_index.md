@@ -31,7 +31,7 @@ Ship production-ready, minimum viable open standard library that allows human-in
 * 💾 Nextcloud [Contact, Calendar, Notes, News]
 * ⌨️ Ubuntu
 * ☁️ Hetzner Servers
-* 🔑 Tailscale+Mullvad+Codeberg
+* 🔑 Netbird + Mullvad DoH/DoT
 * 🌐 Brave Browser
 * 🧑‍💻 VSCodium
 * 📧 Tuta Mail
