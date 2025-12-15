@@ -9,16 +9,17 @@ extra:
 ---
 ## Main Focus:
 
-Ship production-ready, minimum viable open standard library that allows human-in-the-loop incremental learning on microcontrollers for predictive maintenance, by 2025-11-28.
+Finish research on edge-based predictive maintenance. Achieve better clarity for life purpose and callings.
 
 ## Doing
 
-* [10%] [Incremental learning framework for edge devices with human-in-the-loop adaptation](https://github.com/leekaize/tinyol-hitl)
-* [100%] [supOS-bedrock: Industrial IoT Orchestrator](https://leekaize.com/projects/supos-bedrock/) {Hackathon Finished: 2025-10-31}
+* [TinyOL-HITL: Label-Driven Incremental Clustering for Edge-Based Predictive Maintenance](https://github.com/leekaize/tinyol-hitl)
 
 ## Reading
 
-* [29%] "Tall Order: The Goh Chok Tong Story Volume 1" by Peh Shing Huei
+* ["An Introduction to Prayer" by Bishop Robert Barron](https://openlibrary.org/works/OL44101385W/An_Introduction_to_Prayer)
+* ["One Man's View of the World" by Lee Kuan Yew](https://openlibrary.org/works/OL20006568W/One_man's_view_of_the_world)
+* ["Everything We Never Had" by Randy Ribay](https://openlibrary.org/works/OL37939738W/Everything_We_Never_Had)
 
 ### My favourite blogs:
 
